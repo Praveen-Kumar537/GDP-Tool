@@ -6,10 +6,10 @@ from docx.oxml import parse_xml
 # Load the Word document
 doc = Document('sample.docx')
 
-# Define the color for highlighting the first row (e.g., light blue)
-first_row_highlight_color = RGBColor(173, 216, 230)  # Light blue highlight for the first row
+#the color for highlighting the first row (e.g., light blue)
+first_row_highlight_color = RGBColor(173, 216, 230)  # Light blue highlight for the first row (inconsistent table headings)
 
-# Define the color for highlighting empty cells (e.g., yellow)
+#the color for highlighting empty cells (e.g., yellow)
 empty_cell_highlight_color = RGBColor(255, 255, 0)  # Yellow highlight for empty cells
 
 # Iterate over the tables in the document
